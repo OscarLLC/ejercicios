@@ -21,9 +21,11 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-top: 40px;
 }
 .image {
-  width: 90px;
+  width: 130px;
+  height: 110px;
 }
 .btn {
   cursor: pointer;
@@ -37,7 +39,7 @@
   opacity: 0.7; */
 }
 .container-image {
-  margin: 40px 50px;
+  margin: 0px;
   position: relative;
 }
 .number {
@@ -53,8 +55,6 @@
   .sub-container {
     width: 100%;
     margin-top: 20px;
-  }
-  .container-image {
-    margin: 20px;
+    justify-content: space-around;
   }
 }
